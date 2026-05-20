@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
 
-    fetch("http://localhost:5000/tasks")
+    fetch("https://student-task-tracker-6mpj.onrender.com")
       .then((res) => res.json())
       .then((data) => {
         setTasks(data);
