@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.card {
+  width: 400px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.task {
+  background: #e8e8e8;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
