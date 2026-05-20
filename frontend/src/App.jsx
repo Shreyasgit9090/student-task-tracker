@@ -6,11 +6,11 @@ function App() {
 
   useEffect(() => {
 
-    fetch("https://student-task-tracker-6mpj.onrender.com/tasks")
-      .then((res) => res.json())
-      .then((data) => {
-        setTasks(data);
-      });
+    // fetch("https://student-task-tracker-6mpj.onrender.com/tasks")
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     setTasks(data);
+    //   });
 
   }, []);
 
