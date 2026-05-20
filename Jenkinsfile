@@ -6,11 +6,11 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'YOUR_GITHUB_REPO_LINK'
+                echo 'Repository Cloned'
             }
         }
 
-        stage('Install Dependencies') {
+        stage('Install Backend Dependencies') {
             steps {
                 dir('backend') {
                     bat 'npm install'
@@ -32,10 +32,5 @@ pipeline {
             }
         }
 
-        stage('Run Docker Container') {
-            steps {
-                bat 'docker run -d -p 5000:5000 student-task-backend'
-            }
-        }
     }
 }
